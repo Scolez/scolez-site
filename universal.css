@@ -1,3 +1,4 @@
+/* UNIVERSAL */
 body{/*Universal*/
 	width:750px;
 	-webkit-box-align:center;
@@ -17,10 +18,13 @@ body{/*Universal*/
 	text-shadow:rgb(110,110,110) 3px 3px 3px;
 }
 #contentsection{/*Context*/
-	color:black;
+	color:#1A1203;
+	background:#F6ECBA;
 	width:100%;
-	border-left: 2px solid #AF7817;
-	border-right: 2px solid #AF7817;
+	border-left: 2px solid #CFAE74;
+	border-right: 2px solid #CFAE74;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 #contenttitle{/*subpage name*/
 	font-weight:bold;
@@ -28,21 +32,21 @@ body{/*Universal*/
 	margin:0;
 	text-shadow:rgb(110,110,110) 3px 3px 3px;
 }
-#contenttext{/*true content text*/
+#contenttext{/*page description*/
 	font: 18px Gill Sans;
 }
-#freeware{
-	float:left;
-	padding: 4px;
-	width:180px;
-	height:180px;
+/* FREEWARE */
+#freewareimage #freewareimage2 #freewareimage3 #freewareimage4 #freewareimage5 #freewareimage6 {
+	margin-left: auto;
+	margin-right: auto;
+	max-width:750px;
 }
-#freeware:hover{
-	width:100%;
-	height:100%;
+#gameimage #gameimage2 #gameimage3 #gameimage4{
+	margin-left: auto;
+	margin-right: auto;
+	max-width:750px;
 }
-
-/*mother navigation*/
+/* NAVIGATION MOTHER */
 ul.topnav{
 	font:25px Gill Sans;
 	height: 32px;
@@ -55,7 +59,7 @@ ul.topnav > li {
 	width: 200px;
 	
 }
-/*baby navigation*/
+/* NAVIGATION BABY*/
 ul.topnav > li > ul {
 	list-style: none;
 	display:none;
@@ -65,8 +69,9 @@ ul.topnav > li:hover ul {
 	display: block;
 	position: absolute;
 	z-index: 1;
+	margin:0;
 }
-/* all navigation links */
+/* NAVIGATION BOTH */
 ul.topnav a {/**/
 	display: block;
 	text-decoration: none;
@@ -84,4 +89,16 @@ ul.topnav a:hover {
 	background: #FFF380;
 	border: 1px solid #AF7817;
 	margin:0px;
+}
+/* EXTRA */
+A:link{ /* hyper links */
+	color:#AF7817;
+	text-decoration:none;
+}
+A:visited{ /* hyper links */
+	color:#AF7817;
+	text-decoration:none;
+}
+A:hover{ /* hyper links */
+	color:black;
 }
